@@ -41,7 +41,7 @@ pem키는 절대적으로 보안에 신경을 써야하는 키이기 때문에 �
 
 위처럼 대여한 상품의 기본적인 정보가 보여지게되고, 접속이 성공된 모습입니다.
 
-## 생성된 AWS EC2 인스턴스에 서버 배포하기
+## ✅ 생성된 AWS EC2 인스턴스에 서버 배포하기
 ![7](https://user-images.githubusercontent.com/58061847/136897659-88e33ded-0cd2-436e-a623-81e94c2d07be.png)
 
 간단한 express 서버를 띄우는 코드를 작성하고, 깃허브에 업로드를 하였습니다.
@@ -72,6 +72,7 @@ amazonaws.com/secure.notion-static.com/8942b046-7dc1-481d-86f2-955fa3957c1b/Unti
 정상 작동입니다.
 
 ---
+##  ✅ pm2 
 
 node index.js로 서버를 실행 시켰는데 터미널에서 인스턴스를 나올려면 서버를 꺼주어야합니다.
 
@@ -84,3 +85,5 @@ pm2 start index.js
 
 
 status가 online이라면 ubuntu 터미널을 닫아도 서버는 계속 실행되게됩니다.
+![asdf](https://user-images.githubusercontent.com/58061847/136897815-8092db64-b3c2-432e-9e5d-51ce76c0d6bb.png)
+
