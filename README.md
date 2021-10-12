@@ -2,8 +2,8 @@
 
 1. AWS 접속 - EC2 선택
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de4c63bc-48b2-4168-b9f6-276d6656c26d/Untitled.png)
-    
+    ![1](https://user-images.githubusercontent.com/58061847/136897558-b8231e14-93c0-4b12-8b28-95dae10bf799.png)
+
 2. 인스턴스 시작 - ubuntu 프리티어선택
     
     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aa440883-32c5-46c4-b65d-0cdb181ccfef/Untitled.png)
