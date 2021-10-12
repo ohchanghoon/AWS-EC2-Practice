@@ -63,12 +63,11 @@ sudo npm install -g express-generator
 따라서 AWS페이지 자체에서 한가지 보안설정을 추가로 진행 해주어야합니다.
 
 인스턴스에서 어떤 포트를 개방할 지 설정을 추가해줍니다.
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c86bc87a-5315-46fc-85e1-8e9d370adaee/Untitled.png)
+![8](https://user-images.githubusercontent.com/58061847/136897751-062f23f5-3848-4b81-9ac0-61ff90427a51.png)
 
 다시 명령프롬프트로 돌아와서 node index.js를 넣고, 인스턴스의 ip로 접근을 실행합니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6d9e9fcf-ec49-4133-b5f9-432289cbeef9/Untitled.png)
+amazonaws.com/secure.notion-static.com/8942b046-7dc1-481d-86f2-955fa3957c1b/Untitled.png)
 
 정상 작동입니다.
 
@@ -83,6 +82,5 @@ npm install -g pm2
 pm2 start index.js
 ```
 
-amazonaws.com/secure.notion-static.com/8942b046-7dc1-481d-86f2-955fa3957c1b/Untitled.png)
 
 status가 online이라면 ubuntu 터미널을 닫아도 서버는 계속 실행되게됩니다.
