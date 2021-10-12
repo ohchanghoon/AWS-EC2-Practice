@@ -1,8 +1,9 @@
 ## ✅ AWS EC2 인스턴스 생성
 <br>
 1. AWS 접속 - EC2 선택
-
+2. 
     ![1](https://user-images.githubusercontent.com/58061847/136897558-b8231e14-93c0-4b12-8b28-95dae10bf799.png)
+
 <br>
 2. 인스턴스 시작 - ubuntu 프리티어선택
 
