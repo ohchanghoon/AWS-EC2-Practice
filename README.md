@@ -1,14 +1,17 @@
 ## ✅ AWS EC2 인스턴스 생성
 <br>
 1. AWS 접속 - EC2 선택
+
     ![1](https://user-images.githubusercontent.com/58061847/136897558-b8231e14-93c0-4b12-8b28-95dae10bf799.png)
 <br>
 2. 인스턴스 시작 - ubuntu 프리티어선택
-    ![2](https://user-images.githubusercontent.com/58061847/136897588-a5fe62ef-c272-463a-9cc0-1c1b9ef8c9b8.png)
+
+![2](https://user-images.githubusercontent.com/58061847/136897588-a5fe62ef-c272-463a-9cc0-1c1b9ef8c9b8.png)
 <br>
 1. 인스턴스 유형 선택
     필요로하는 CPU와 RAM크기에 맞춰 상품을 선택한다
-    ![3](https://user-images.githubusercontent.com/58061847/136897609-31b41e8d-1349-41d1-aa30-55ac14b36624.png)
+
+![3](https://user-images.githubusercontent.com/58061847/136897609-31b41e8d-1349-41d1-aa30-55ac14b36624.png)
 
 
 ## ✅ AWS EC2 인스턴스 생성
