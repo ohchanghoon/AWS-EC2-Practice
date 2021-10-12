@@ -1,14 +1,12 @@
 ## ✅ AWS EC2 인스턴스 생성
-
+<br>
 1. AWS 접속 - EC2 선택
-    
     ![1](https://user-images.githubusercontent.com/58061847/136897558-b8231e14-93c0-4b12-8b28-95dae10bf799.png)
-
+<br>
 2. 인스턴스 시작 - ubuntu 프리티어선택
     ![2](https://user-images.githubusercontent.com/58061847/136897588-a5fe62ef-c272-463a-9cc0-1c1b9ef8c9b8.png)
-
+<br>
 1. 인스턴스 유형 선택
-    
     필요로하는 CPU와 RAM크기에 맞춰 상품을 선택한다
     ![3](https://user-images.githubusercontent.com/58061847/136897609-31b41e8d-1349-41d1-aa30-55ac14b36624.png)
 
@@ -16,7 +14,6 @@
 ## ✅ AWS EC2 인스턴스 생성
 
 Launch를 클릭하면 바로 인스턴스 리스트 페이지로 바로 이동하지는 않고 터미널로 인스턴스에 접속할 수 있는 pem 키를 생성하셔야 합니다. [새 키 페어 생성]
-
 pem 키를 생성하고 다운로드 할 수 있는 팝업창이 뜨면 Create a new key pair를 고르시고 pem 키 파일 이름을 쓰신 후, 다운로드 받으시면 됩니다.
 ![4](https://user-images.githubusercontent.com/58061847/136897621-1d4fc5ee-2ece-4a63-bd9e-7da6dd117a72.png)
 
