@@ -5,24 +5,21 @@
     ![1](https://user-images.githubusercontent.com/58061847/136897558-b8231e14-93c0-4b12-8b28-95dae10bf799.png)
 
 2. 인스턴스 시작 - ubuntu 프리티어선택
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aa440883-32c5-46c4-b65d-0cdb181ccfef/Untitled.png)
-    
+    ![2](https://user-images.githubusercontent.com/58061847/136897588-a5fe62ef-c272-463a-9cc0-1c1b9ef8c9b8.png)
 
 1. 인스턴스 유형 선택
     
     필요로하는 CPU와 RAM크기에 맞춰 상품을 선택한다
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/53c01f91-3625-4418-8fbf-29f8852af6f2/Untitled.png)
-    
+    ![3](https://user-images.githubusercontent.com/58061847/136897609-31b41e8d-1349-41d1-aa30-55ac14b36624.png)
+
 
 ## ✅ AWS EC2 인스턴스 생성
 
 Launch를 클릭하면 바로 인스턴스 리스트 페이지로 바로 이동하지는 않고 터미널로 인스턴스에 접속할 수 있는 pem 키를 생성하셔야 합니다. [새 키 페어 생성]
 
 pem 키를 생성하고 다운로드 할 수 있는 팝업창이 뜨면 Create a new key pair를 고르시고 pem 키 파일 이름을 쓰신 후, 다운로드 받으시면 됩니다.
+![4](https://user-images.githubusercontent.com/58061847/136897621-1d4fc5ee-2ece-4a63-bd9e-7da6dd117a72.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bdf66b34-7fb1-477a-988a-3d163ef59d3f/Untitled.png)
 
 pem키는 절대적으로 보안에 신경을 써야하는 키이기 때문에 깃허브에 올리거나 공개된 자료로 취급하면 안되고, 보안설정을 변경해주어야합니다.
 
@@ -39,17 +36,13 @@ pem키는 절대적으로 보안에 신경을 써야하는 키이기 때문에 �
 
 [예]를 복사해서 명령프롬프트에 붙여넣기합니다.
 
- 
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/230319d2-e8ca-42bc-a663-1313bc96354b/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fc5810d9-0f9c-4061-b5ef-2e6fce5719a1/Untitled.png)
+ ![5](https://user-images.githubusercontent.com/58061847/136897636-8b9456da-3c64-469b-a8e1-e68a69c97e20.png)
+![6](https://user-images.githubusercontent.com/58061847/136897639-789a0983-5ab2-4ea3-8f16-7299c2eea3d9.png)
 
 위처럼 대여한 상품의 기본적인 정보가 보여지게되고, 접속이 성공된 모습입니다.
 
 ## 생성된 AWS EC2 인스턴스에 서버 배포하기
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/54a18af1-ee31-4176-a8b1-87270328756d/Untitled.png)
+![7](https://user-images.githubusercontent.com/58061847/136897659-88e33ded-0cd2-436e-a623-81e94c2d07be.png)
 
 간단한 express 서버를 띄우는 코드를 작성하고, 깃허브에 업로드를 하였습니다.
 
@@ -90,6 +83,6 @@ npm install -g pm2
 pm2 start index.js
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8942b046-7dc1-481d-86f2-955fa3957c1b/Untitled.png)
+amazonaws.com/secure.notion-static.com/8942b046-7dc1-481d-86f2-955fa3957c1b/Untitled.png)
 
 status가 online이라면 ubuntu 터미널을 닫아도 서버는 계속 실행되게됩니다.
